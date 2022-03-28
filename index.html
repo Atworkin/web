@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content=", Asier E, Mario H, Javier O, Alvaro R" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./bulma.css" />
+    <link rel="icon" href="./img/logo.png" />
+    <title>CF Train</title>
+  </head>
+
+  <body>
+    <script src="./jsModal.js"></script>
+    <script src="./jshamburger.js"></script>
+    <!-- Encabezado de la pagina -->
+    <header>
+      <section class="hero is-link is-small" id="home">
+        <div class="hero-body" id="head">
+          <div class="container has-text-centered">
+            <figure class="image is-384x384 has-image-centered" id="logo">
+              <img alt="Project Logo" src="./img/logo.png" />
+            </figure>
+            <br />
+            <p class="title titulo is-size-3">
+              NO ONE DOUBTS ANYMORE THAT DEVELOPMENT HAS TO BE HUMAN
+            </p>
+            <br />
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- Parte principal de la pagina -->
+    <main>
+      <!-- navegador -->
+      <nav class="navbar is-fixed-top is-link">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#home">
+            <img src="./img/logo.png" alt="logo web" />
+          </a>
+          <a
+            role="button"
+            class="navbar-burger"
+            data-target="navMenu"
+            aria-label="menu"
+            aria-expanded="false"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navMenu" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="#CO2"> Objetives </a>
+            <a class="navbar-item" href="#related"> Related </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link" href="#partner"> Partners </a>
+              <!-- Desplegable -->
+              <div class="navbar-dropdown is-boxed">
+                <a class="navbar-item" href="./partners/cuatrovientos.html">
+                  Cuatrovientos
+                </a>
+                <a class="navbar-item" href="./partners/skolan.html">
+                  Göranssonska Skolan
+                </a>
+                <a class="navbar-item" href="./partners/valier.html">
+                  Technologische Fachoberschule Max Valier
+                </a>
+                <a class="navbar-item" href="./partners/cenifer.html">
+                  CENIFER
+                </a>
+                <a class="navbar-item" href="./partners/htbla.html">
+                  HTBLA Wolfsberg
+                </a>
+                <a class="navbar-item" href="./partners/stenum.html">
+                  STENUM
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Objetivos -->
+      <div class="content is-large has-text-centered" id="CO2">
+        <h1>OUR OBJECTIVES</h1>
+      </div>
+
+      <figure class="image has-image-centered is-384x384" id="imgco2">
+        <img class="is-rounded" src="./img/co2.png" alt="CO2 logo" />
+      </figure>
+
+      <!-- botones de los objetivos -->
+      <div class="buttons has-addons is-centered" id="buttons">
+        <button
+          class="js-modal-trigger button is-success is-medium modal-button"
+          data-target="objetivo1"
+        >
+          FOOTPRINT CALCULATION
+        </button>
+        <button
+          class="js-modal-trigger button is-success is-medium modal-button"
+          data-target="objetivo2"
+        >
+          EMISSIONS REDUCTION
+        </button>
+        <button
+          class="js-modal-trigger button is-success is-medium modal-button"
+          data-target="objetivo3"
+        >
+          GREEN SKILLS
+        </button>
+        <button
+          class="js-modal-trigger button is-success is-medium modal-button"
+          data-target="objetivo4"
+        >
+          GOOD PRACTICE
+        </button>
+        <button
+          class="js-modal-trigger button is-success is-medium modal-button"
+          data-target="objetivo5"
+        >
+          SOCIAL INCLUSION
+        </button>
+        <button
+          class="js-modal-trigger button is-success is-medium modal-button"
+          data-target="objetivo6"
+        >
+          SUSTAINABILITY ISSUES
+        </button>
+        <button
+          class="js-modal-trigger button is-success is-medium modal-button"
+          data-target="objetivo7"
+        >
+          ENVIRONMENTAL POLICIES
+        </button>
+      </div>
+
+      <!-- contenido de los objetivos, estan ocultos por defecto -->
+      <!-- objetivo1 -->
+      <div class="modal" id="objetivo1">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title has-text-centered">
+              CARBON FOOTPRINT CALCULATION
+            </p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <p class="subtitle is-5 has-text-centered">
+              Train students and staff ing in Carbon Footprint calculation
+              <br /><br />
+              OUR MILESTONES:
+            </p>
+            <p class="subtitle is-5">
+              -CF calculation reports. All the partner schools including
+              students and staff have worked on the CF calculation and have
+              suggested measures for emissions reduction
+              <br /><br />
+              -Domestic CF calculation. Our daily activities and personal
+              choices also cause emissions. How can we change our habits?
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <!-- objetivo2 -->
+      <div class="modal" id="objetivo2">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title has-text-centered">
+              EMISSIONS REDUCTION
+            </p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <p class="subtitle is-5 has-text-centered">
+              Reduce 30% of school emissions
+              <br /><br />
+              OUR MILESTONES:
+            </p>
+            <p class="subtitle is-5">
+              -Design of a carpooling app
+              <br /><br />
+              -100% of renewable energies in the partner schools. Installation
+              of solar panels
+              <br /><br />
+              -Improving the energy efficiency of buildings
+              <br /><br />
+              -Tree Plantations. The way to compensate our carbon emissions
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <!-- objetivo3 -->
+      <div class="modal" id="objetivo3">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title has-text-centered">GREEN SKILLS</p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <p class="subtitle is-5 has-text-centered">
+              Raise school-wide awareness on climate change and create a toolkit
+              to reduce CF and environmental impact
+              <br /><br />
+              OUR MILESTONES:
+            </p>
+            <p class="subtitle is-5">
+              -Webinar on climate change
+              <br /><br />
+              -Curricular activities into the classroom.
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <!-- objetivo4 -->
+      <div class="modal" id="objetivo4">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title has-text-centered">
+              EXCHANGE OF GOOD PRACTICES <br />
+              AND CULTURAL COMPETENCE
+            </p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <p class="subtitle is-5 has-text-centered">
+              Get students to share good practices at an international level
+              <br /><br />
+              OUR MILESTONES:
+            </p>
+            <p class="subtitle is-5">-International activities with students</p>
+          </section>
+        </div>
+      </div>
+
+      <!-- objetivo5 -->
+      <div class="modal" id="objetivo5">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title has-text-centered">
+              SOCIAL INCLUSION AND GENDER EQUALITY
+            </p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <p class="subtitle is-5 has-text-centered">
+              Involve 100% of students with special needs in the project
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <!-- objetivo6 -->
+      <div class="modal" id="objetivo6">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title has-text-centered">
+              INVOLVING COMPANIES/SCHOOLS <br />
+              IN SUSTAINABILITY ISSUES
+            </p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <p class="subtitle is-5 has-text-centered">
+              Involve 100% partners companies in CF calculation and reduction
+              issues through students internship projects and coach and support
+              other schools in the calculation of CO2 emissions
+              <br /><br />
+              OUR MILESTONES:
+            </p>
+            <p class="subtitle is-5">
+              -Collaboration with partner companies and schools: Energy audits
+              and analysis carried out by students
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <!-- objetivo7 -->
+      <div class="modal" id="objetivo7">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title is-2 has-text-centered">
+              DESIGN OF SUSTAINABILITY/ENVIRONMENTAL <br />
+              POLICIES IN EACH SCHOOL
+            </p>
+            <button class="delete" aria-label="close"></button>
+          </header>
+          <section class="modal-card-body">
+            <p class="subtitle is-5 has-text-centered">
+              Design school environmental policies and sustainability plans
+              <br /><br />
+              OUR MILESTONES:
+            </p>
+            <p class="subtitle is-5">
+              -International Environmental Statement. Commemorating the
+              International Earth Day, the six partners of the project sign an
+              Environmental Statement
+              <br /><br />
+              -Workshops about Environmental Management Systems, Corporate
+              Social Responsibility and Sustainable Development Goals
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <!-- related contenido relacionado, ODS -->
+      <div class="content is-large has-text-centered" id="related">
+        <h1>RELATED</h1>
+      </div>
+
+      <!-- enlace a la pagina de naciones unidas -->
+      <div class="tile is-ancestor" id="tile">
+        <div class="tile is-vertical is-12">
+          <div class="tile">
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <div class="card">
+                  <div class="card-image">
+                    <figure class="image is-4by3">
+                      <img src="./img/SDG.png" alt="Ahora clima image" />
+                    </figure>
+                  </div>
+                  <div class="card-content">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">
+                          SDG'S GOALS:
+                          <span class="subtitle is-6"
+                            >CThe 2030 Agenda for Sustainable Development,
+                            adopted by all United Nations Member States in 2015,
+                            provides a shared blueprint for peace and prosperity
+                            for people and the planet.</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <footer class="card-footer">
+                    <p class="card-footer-item">
+                      <span>
+                        <a
+                          href="https://sdgs.un.org/goals"
+                          class="button is-medium"
+                          target="_blank"
+                          >View more</a
+                        >
+                      </span>
+                    </p>
+                  </footer>
+                </div>
+              </article>
+            </div>
+
+            <!-- ODS relacionados con nuestros objetivos -->
+            <div class="tile is-8 is-vertical">
+              <div class="tile">
+                <!-- ODS07 -->
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <a href="https://sdgs.un.org/goals/goal7" target="_blank">
+                      <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-1by1">
+                            <img src="./img/ODS/ODS07.png" alt="ODS07" />
+                          </figure>
+                        </div>
+                      </div>
+                    </a>
+                  </article>
+                </div>
+                <!-- ODS05 -->
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <a href="https://sdgs.un.org/goals/goal11" target="_blank">
+                      <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-1by1">
+                            <img src="./img/ODS/ODS11.png" alt="ODS11" />
+                          </figure>
+                        </div>
+                      </div>
+                    </a>
+                  </article>
+                </div>
+                <!-- ODS12 -->
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <a href="https://sdgs.un.org/goals/goal12" target="_blank">
+                      <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-1by1">
+                            <img src="./img/ODS/ODS12.png" alt="ODS12" />
+                          </figure>
+                        </div>
+                      </div>
+                    </a>
+                  </article>
+                </div>
+              </div>
+              <div class="tile">
+                <!-- ODS13 -->
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <a href="https://sdgs.un.org/goals/goal13" target="_blank">
+                      <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-1by1">
+                            <img src="./img/ODS/ODS13.png" alt="ODS13" />
+                          </figure>
+                        </div>
+                      </div>
+                    </a>
+                  </article>
+                </div>
+                <!-- ODS15 -->
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <a href="https://sdgs.un.org/goals/goal15" target="_blank">
+                      <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-1by1">
+                            <img src="./img/ODS/ODS15.png" alt="ODS15" />
+                          </figure>
+                        </div>
+                      </div>
+                    </a>
+                  </article>
+                </div>
+                <!-- ODS04 -->
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <a href="https://sdgs.un.org/goals/goal17" target="_blank">
+                      <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-1by1">
+                            <img src="./img/ODS/ODS17.png" alt="ODS17" />
+                          </figure>
+                        </div>
+                      </div>
+                    </a>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- nuestros socios -->
+          <div class="content is-large has-text-centered" id="partner">
+            <h1>OUR PARTNERS</h1>
+          </div>
+
+          <!-- cutrovientos -->
+          <div class="tile is-ancestor">
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <a href="./partners/cuatrovientos.html">
+                  <figure class="image is-3by1 img-partner">
+                    <img
+                      src="./img/partners/cuatrovientos.png"
+                      alt="logo cuatrovientos"
+                    />
+                  </figure>
+                </a>
+              </article>
+            </div>
+
+            <!-- skolan -->
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <a href="./partners/skolan.html">
+                  <figure class="image is-3by1 img-partner">
+                    <img src="./img/partners/skolan.png" alt="skolan logo" />
+                  </figure>
+                </a>
+              </article>
+            </div>
+
+            <!-- valier -->
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <a href="./partners/valier.html">
+                  <figure class="image is-3by1 img-partner">
+                    <img
+                      src="./img/partners/max_valier.png"
+                      alt="logo valier"
+                    />
+                  </figure>
+                </a>
+              </article>
+            </div>
+          </div>
+
+          <!-- cenifer -->
+          <div class="tile is-ancestor" id="partners">
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <a href="./partners/cenifer.html">
+                  <figure class="image is-3by1 img-partner">
+                    <img src="./img/partners/cenifer.png" alt="logo cenifer" />
+                  </figure>
+                </a>
+              </article>
+            </div>
+
+            <!-- htl -->
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <a href="./partners/htbla.html">
+                  <figure class="image is-3by1 img-partner">
+                    <img src="./img/partners/htl.png" alt="logo  htl" />
+                  </figure>
+                </a>
+              </article>
+            </div>
+
+            <!-- stenum -->
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <a href="./partners/stenum.html">
+                  <figure class="image is-3by1 img-partner">
+                    <img src="./img/partners/stenum.png" alt="logo stenum" />
+                  </figure>
+                </a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--Pie de pagina-->
+    <footer class="footer is-verde5">
+      <div class="columns is-desktop" id="footer">
+        <div class="column is-1"></div>
+        <!--Mapa y logo de Erasmus+-->
+        <div class="column is-4">
+          <iframe
+            src="https://www.google.com/maps/d/embed?mid=1DCWb8FQI330-T-gLes5XR1CEKQrjZOZd&ehbc=2E312F"
+            id="map"
+          ></iframe>
+          <div class="region region-footer-left"></div>
+          <a
+            href="https://ec.europa.eu/programmes/erasmus-plus/projects/eplus-project-details/#project/2020-1-ES01-KA202-081865"
+            id="europe"
+            target="_blank"
+            ><img alt="Erasmus+ logo" src="./img/erasmus.png"
+          /></a>
+        </div>
+
+        <div class="column is-2"></div>
+        <!--Lista de colaboradores y contacto del centro coordinador-->
+        <div class="column is-4">
+          <div class="box is-partners">
+            <h4 class="title is-4 partners">Partners websites</h4>
+            <ul>
+              <li>
+                <a
+                  class="subtitle is-5"
+                  href="http://www.cuatrovientos.org/"
+                  target="_blank"
+                >
+                  Cuatrovientos Centro Integrado</a
+                >
+              </li>
+              <li>
+                <a
+                  class="subtitle is-5"
+                  href="https://www.goranssonskaskolan.com/"
+                  target="_blank"
+                  >Göranssonska Skolan</a
+                >
+              </li>
+              <li>
+                <a
+                  class="subtitle is-5"
+                  href="https://www.tfobz.it/"
+                  target="_blank"
+                  >Technologische Fachoberschule Max Valier</a
+                >
+              </li>
+              <li>
+                <a
+                  class="subtitle is-5"
+                  href="https://www.cenifer.com/"
+                  target="_blank"
+                  >CENIFER</a
+                >
+              </li>
+              <li>
+                <a
+                  class="subtitle is-5"
+                  href="https://www.htl-wolfsberg.at/"
+                  target="_blank"
+                  >HTBLA Wolfsberg</a
+                >
+              </li>
+              <li>
+                <a
+                  class="subtitle is-5"
+                  href="https://stenum.com/?lang=en"
+                  target="_blank"
+                  >STENUM</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="box">
+            <h4 class="partners title is-4">Contact</h4>
+            <div class="contact">
+              <ul>
+                <li class="subtitle is-5">CENTRO INTEGRADO CUATROVIENTOS</li>
+                <li class="subtitle is-5">Tel: (+34) 948 12 41 29</li>
+                <li class="subtitle is-5">
+                  <a class="subtitle is-5" href="mailto:info@cuatrovientos.org"
+                    >info@cuatrovientos.org</a
+                  >
+                </li>
+                <li class="subtitle is-5">
+                  <a
+                    class="subtitle is-5"
+                    href="https://goo.gl/maps/Wj1em8tQu2nG2UWt8"
+                    target="_blank"
+                    >Av. de San Jorge Etorbidea, 2, 31012 Pamplona, Navarra.</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-1"></div>
+
+      <div class="content has-text-centered" id="creators">
+        <p class="subtitle is-5">
+          Developed by: Asier Echauri, Álvaro Rodríguez, Mario Herrero, Javier
+          Oroz
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
